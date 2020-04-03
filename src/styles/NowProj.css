@@ -1,0 +1,76 @@
+/* container6 */
+.container6 {
+    width:100%;
+    margin:0;
+    padding:0;
+    height:100%;
+    background-color:var(--Background);
+    display:grid;
+    grid-template-areas: "nowProj1 nowProj2 nowProj3 nowProj4 nowProj5";
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: auto;
+    font-size:14px;
+    color:var(--White);
+    text-align:center;
+}
+
+.nowProj1{
+    grid-area: nowProj1;
+    background-color:var(--Background);
+}
+
+.nowProj2{
+    grid-area: nowProj2;
+    background-color:var(--Background);
+    align-self:center;
+    justify-self: center;
+    padding-left:50px;
+}
+
+.nowProj3{
+    grid-area: nowProj3;
+    background-color:var(--Background);
+    align-self:center;
+    justify-self: center;
+    padding-left:50px;
+}
+
+.nowProj3H2{
+    font-size:24px;
+}
+
+.nowProj3H3{
+    font-family:"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    color:var(--Green);
+    font-size:16px;
+}
+
+.nowProj4{
+    grid-area: nowProj4;
+    background-color:var(--Background);
+    align-self:center;
+    justify-self: center;
+    padding-left:50px;
+}
+
+.nowProjKot{
+    height:300px;
+    width:300px;
+    background-color: var(--LightNavy);
+}
+
+.hidden{
+    opacity:0;
+    font-size:24px;
+}
+
+.hidden2{
+    font-family:"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    opacity:0;
+    font-size:16px;
+}
+
+.nowProj5{
+    grid-area: nowProj5;
+    background-color:var(--Background);
+}

@@ -1,0 +1,62 @@
+
+
+  .container7 {
+    width:100%;
+    margin:0;
+    padding:0;
+    height:710px;
+    background-color:var(--Background);
+    display:grid;
+    grid-template-areas: "con1 con2 con3";
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: auto;
+    font-size:14px;
+    color:var(--White);
+    text-align:center;
+}
+
+.con1{
+    grid-area: con1;
+    background-color:var(--Background);
+}
+
+.con2{
+    grid-area: con2;
+    background-color:var(--Background);
+    align-self:center;
+    justify-self:center;
+    padding-left:50px;
+}
+
+.con2Satu{
+    font-family:"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    color:var(--Green);
+    font-size:16px;
+}
+
+.con2Dua{
+    font-size:48px;
+}
+
+.con2Tiga{
+    font-size:16px;
+    margin-bottom:40px;
+}
+
+.conHello span{
+    border:2px solid var(--Green);
+    color:var(--Green);
+    border-radius:5px;
+    padding: 10px 10px;
+    font-weight:bold;
+}
+
+.conHello span:hover{
+    background-color:var(--Green);
+    color:var(--Background);
+}
+
+.con3{
+    grid-area: con3;
+    background-color:var(--Background);
+}

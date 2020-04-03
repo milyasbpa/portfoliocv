@@ -1,0 +1,17 @@
+
+  :root {
+    --Navy:#0a192f;
+    --LightNavy:#172a45;
+    --DarkGrey:#333f58;
+    --Slate:#8892b0;
+    --LightSlate:#a8b2d1;
+    --LightestSlate:#ccd6f6;
+    --White:#c5c6c7;
+    --Green:#64ffda;
+    --Background:#0b0c10;
+    --Primary:#66fcf1;
+    --Secondary:#03dac6;
+    --Onbs:#c5c6c7;
+    --Onps:#000000;
+    height:100vh;
+  }

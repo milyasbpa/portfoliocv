@@ -1,0 +1,68 @@
+
+  .container2 {
+    width:100%;
+    margin:0;
+    padding:0;
+    height:750px;
+    background-color:var(--Background);
+    display:grid;
+    grid-template-areas: "int1 int2 int3";
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-rows: auto;
+    font-size:14px;
+    color:var(--Primary);
+}
+
+.int1{
+    grid-area: int1;
+    background-color:var(--Background);
+}
+
+.int2{
+    grid-area: int2;
+    background-color:var(--Background);
+    align-self:center;
+    padding-left:50px;
+}
+
+.int3{
+    grid-area: int3;
+    background-color:var(--Background);
+}
+
+.intTl1{
+    font-size:16px;
+    font-family:"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+
+.intTl2{
+    font-size:64px;
+    color:var(--White);
+}
+
+.intTl3{
+    font-size:64px;
+    color:var(--White);
+}
+
+.intTl4{
+    font-size:16px;
+    width:75%;
+    color:var(--White);
+}
+
+.intTl5{
+    background-color:inherit;
+    border:2px solid var(--Green);
+    border-radius:5px;
+    margin-top:20px;
+    padding:20px 30px;
+    color:var(--Green);
+    font-weight:bold;
+}
+
+.intTl5:hover{
+    background-color: var(--Green);
+    transition:0.3s;
+    color:var(--Background);
+}

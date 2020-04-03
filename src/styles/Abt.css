@@ -1,0 +1,106 @@
+a{
+    text-decoration:none;
+    color:var(--Green);
+}
+
+.container3 {
+    width:100%;
+    margin:0;
+    padding:0;
+    height:100vh;
+    background-color:var(--Background);
+    display:grid;
+    grid-template-areas: "abt1 abt2 abt3 abt4";
+    grid-template-columns: 0.5fr 1.5fr 1.5fr 0.5fr;
+    grid-template-rows: auto;
+    font-size:14px;
+    color: var(--White);
+}
+
+.abt1{
+    grid-area: abt1;
+    background-color:var(--Background);
+}
+
+.abt2{
+    grid-area: abt2;
+    background-color:var(--Background);
+    align-self:center;
+    padding-left:50px;
+}
+
+.abtH1{
+    font-size:32px;
+}
+.abtH1::before{
+    Content:'01. ';
+    font-size:24px;
+    color:var(--Green);
+    font-family:"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+
+.abtH1::after{
+    Content:' _________________';
+    font-size:24px;
+    color:var(--White);
+    font-family:"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+
+.abt3{
+    grid-area: abt3;
+    background-color:var(--Background);
+    align-self:center;
+    padding-right:50px;
+    justify-self: right;
+}
+
+.abt3 .abt3Img{
+    width:200px;
+    height:200px;
+    position:relative;
+}
+
+.abt3 .abt3Img::before{
+    Content:'';
+    display:block;
+    width:202px;
+    height:202px;
+    border: 2px solid var(--Green);
+    position:absolute;
+}
+
+.abt3 .abt3Img::after{
+    Content:'';
+    display:block;
+    width:200px;
+    height:200px;
+    background-color: var(--Green);
+    opacity:0.8;
+    position:absolute;
+    top:-15px;
+    left:-15px;
+}
+
+.abt3 .abt3Img:hover::before{
+    top:-17px;
+    left:-17px;
+    transition-duration:1s;
+}
+
+.abt3 .abt3Img:hover::after{
+    opacity:0;
+    transition-duration:1s;
+}
+
+.abt3 img{
+    width:200px;
+    height:200px;
+    position:absolute;
+    top:-15px;
+    left:-15px;
+}
+
+.abt4{
+    grid-area: abt4;
+    background-color:var(--Background);
+}

@@ -1,0 +1,33 @@
+
+
+  .footer {
+    width:100%;
+    margin:0;
+    padding:0;
+    height:75px;
+    background-color:#080808;
+    display:grid;
+    grid-template-areas: "foo1 foo2 foo3";
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-rows: auto;
+    font-size:12px;
+    color:White;
+}
+
+.foo1{
+    grid-area: foo1;
+    background-color:#080808;
+}
+
+.foo2{
+    grid-area: foo2;
+    background-color:#080808;
+    align-self:center;
+    justify-self:center;
+    padding-left:50px;
+}
+
+.foo3{
+    grid-area: foo3;
+    background-color:;
+}

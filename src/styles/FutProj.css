@@ -1,0 +1,98 @@
+.container5 {
+    width:100%;
+    margin:0;
+    padding:0;
+    height:750px;
+    background-color:var(--Background);
+    display:grid;
+    grid-template-areas: "futProj1 futProj2 futProj3 futProj4";
+    grid-template-columns: 0.5fr 1.5fr 1.5fr 0.5fr;
+    grid-template-rows: auto;
+    font-size:14px;
+    color:var(--White);
+}
+
+.futProj1{
+    grid-area: futProj1;
+    background-color:var(--Background);
+}
+
+.futProj2{
+    grid-area: futProj2;
+    background-color:var(--Background);
+    align-self:center;
+}
+
+.futProj2 img{
+    width:100%;
+}
+
+.futProj2H1{
+    font-size:32px;
+}
+
+.futProj2H1::before{
+    Content:'03. ';
+    font-size:24px;
+    color:var(--Green);
+    font-family:"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+
+.futProj3{
+    grid-area: futProj3;
+    background-color:var(--Background);
+    align-self:center;
+    justify-self: right;
+    text-align:right;
+}
+
+.futProj3Satu{
+    font-family:"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size:14px;
+    color:var(--Green);
+}
+
+.futProj3Dua{
+    font-size:24px;
+}
+
+.kotak{
+    position:relative;
+    background-color:#1f2833;
+    width: 110%;
+    right:20%;
+    padding:5% 5%;
+}
+
+.tools span{
+    margin:5px 5px;
+}
+
+.site{
+    display:flex;
+    align-items: center;
+    flex-direction:row-reverse;
+}
+
+.site .fa-github{
+    float:left;
+}
+
+.site span{
+    margin:5px 7.5px;
+}
+
+.fa-github{
+    font-size:28px;
+    color:var(--Green);
+}
+
+.material-icons{
+    font-size:28px;
+    color: var(--Green);
+}
+
+.futProj4{
+    grid-area: futProj4;
+    background-color:var(--Background);
+}
